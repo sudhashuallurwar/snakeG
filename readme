@@ -1,0 +1,33 @@
+********************************************************************************************************************************************
+							#Title:- "snakeG v1.0"
+********************************************************************************************************************************************
+Intro:
+	this is basically snake game which we used to play in nokia phones.
+	this has 2 player mode.
+
+Most important:- ## Requires GTK+3.0 ## 
+
+# Usage:
+	*first go into the folder. 
+	*make sure that there is file called 'makefile'. 
+	*type this command in terminal
+         1) make
+         NOTE: for next time when you want play just type ./snakeG
+
+	*if makefile is not there then just copy this and paste it in terminal
+	 $first->   cc snakeG.c `pkg-config --libs gtk+-3.0` `pkg-config --cflags gtk+-3.0` -o snakeG ,then press enter.
+	 then copy this,	
+	 $second-> ./snakeG ,then press enter.
+
+# Controls:
+        Up    : Up Arrow
+        Down  : Down Arrow
+        Right : Right Arrow
+        Left  : Left Arrow
+	for more information see in game's bar which has new game, quit, help, tools etc. options.	
+
+# TODO:
+	lot of code for movement of snake
+	to store highscore, 2 player mode.
+
+I hope you will Enjoy it!
