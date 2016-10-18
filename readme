@@ -8,6 +8,7 @@ Intro:
 Most important:- ## Requires GTK+3.0 ## 
 
 # Usage:
+	*download all files by clicking 'clone or download' green colour tab. 
 	*first go into the folder. 
 	*make sure that there is file called 'makefile'. 
 	*type this command in terminal
